@@ -1,4 +1,4 @@
-### First batch of data
+### First experiment
 
 I tried getting 4 types of sensor data, each type having a different intergration time.
 
