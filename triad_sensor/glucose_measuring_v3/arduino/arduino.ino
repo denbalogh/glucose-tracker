@@ -39,11 +39,6 @@ void loop() {
         } else if(input == "get:IR"){
             sensor.setBulbCurrent(AS7265X_LED_CURRENT_LIMIT_50MA, AS7265x_LED_IR);
             sensor.enableBulb(AS7265x_LED_IR);
-        } else if(input == "get:VIS_IR") {
-            sensor.setBulbCurrent(AS7265X_LED_CURRENT_LIMIT_100MA, AS7265x_LED_WHITE);
-            sensor.setBulbCurrent(AS7265X_LED_CURRENT_LIMIT_50MA, AS7265x_LED_IR);
-            sensor.enableBulb(AS7265x_LED_WHITE);
-            sensor.enableBulb(AS7265x_LED_IR);          
         }
 
         sensor.takeMeasurements();
